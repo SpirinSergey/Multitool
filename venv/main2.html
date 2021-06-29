@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+
+    <!-- Подключаем скрипты, чисто дя примера -->
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript"> //Подключили
+      eel.expose(say_hello_js); // Подключаем функцию к python
+      function say_hello_js() {
+        console.log("Hello from eel " );
+      }
+
+
+    </script>
+  </head>
+
+  <body>
+    Hello, World!
+  </body>
+</html>
